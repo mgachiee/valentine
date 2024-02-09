@@ -130,7 +130,7 @@ body {
 }
 @media only screen and (max-device-width: 640px){
     .letter{
-        height: auto;
+        height: fit-content;
         width: 95%;
 /*         font-size: 14px;
         line-height: 1.5px;
@@ -139,7 +139,7 @@ body {
 }
 @media only screen and (max-device-width: 480px){
     .letter{
-        height: auto;
+        height: fit-content;
         width: 95%;
 /*         font-size: 14px;
         line-height: 1.5px;
