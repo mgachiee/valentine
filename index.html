@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:image" content="heart.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="includes/style.css">
+    <link rel="shortcut icon" href="includes/favicon_io/android-chrome-192x192.png" type="image/x-icon">
+    <link rel="shortcut icon" href="includes/favicon_io/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="shortcut icon" href="includes/favicon_io/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="includes/favicon_io/favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="includes/favicon_io/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="includes/favicon_io/favicon.ico" type="image/x-icon">
+    <title>Happy Valentine's Day</title>
+</head>
+<body>
+    <audio src="includes/song.mp3" id="playSong" autoplay></audio>
+    <div class="bubble-container">
+        <div class="letter show-message" id="message">
+            <div class="container">
+                <p>
+                    Dear Jennifer,
+                    <br>
+                    <br>
+                    I would like to start my letter with my appreciation for your existence. 
+                    It's really unexpected how our story began and how I saw you on graduation practice day. 
+                    I didn't expect that we'd come this far and that my feelings would be reciprocated. 
+                    Let us fill these empty bubbles with great and happy memories of us. 
+                    I know you already know that I hate the following:
+                    <br>
+                    <br>
+                    I hate waiting for late people. 
+                    I am not the type of person to give their full effort to something. 
+                    I don't like taking pictures. I don't communicate my feelings well. 
+                    But if it's you, I'll do anything I hate for you. 
+                    I'm willing to wait for you, to give my best shot for you, to take lots of pictures with you, and to do the best I can to communicate things with you.
+                    <br>
+                    <br>
+                    I will do anything I can to show you the love and care I have for you. 
+                    You are more than enough. You don't have to change a thing about you. 
+                    Just stay being you, being the most beautiful lady in and out.
+                    This month of love, I would like to greet you a Happy Valentine's Day. 
+                    And also, I am asking you if you can be my Valentine? not just this month or next year, but my Valentine for the rest of my life. 
+                    I promise to give you the love and care you deserve. I love you, Jennifer.
+                </p>
+            </div>
+            <div class="container">
+                <button id="send-email-yes">Yes</button>
+                <button id="send-email-no">No</button>
+            </div>
+            <div class="container">
+                <p id="messageResponse"></p>
+            </div>
+        </div>
+        <div onclick="showMessage()" id="showMessage">&#9829</div>
+    </div>
+	<script src="includes/script.js"></script>
+</body>
+</html>
