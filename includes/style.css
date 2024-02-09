@@ -128,3 +128,15 @@ body {
 #messageResponse{
     display: none;
 }
+@media only screen and (max-device-width: 640px){
+    .letter{
+        height: auto;
+        width: 95%;
+    }
+}
+@media only screen and (max-device-width: 480px){
+    .letter{
+        height: auto;
+        width: 95%;
+    }
+}
