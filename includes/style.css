@@ -132,11 +132,13 @@ body {
     .letter{
         height: auto;
         width: 95%;
+        overflow: visible;
     }
 }
 @media only screen and (max-device-width: 480px){
     .letter{
         height: auto;
         width: 95%;
+        overflow: visible;
     }
 }
